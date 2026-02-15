@@ -1,8 +1,8 @@
 import { Bot } from "grammy";
-import { bot_token } from "./config";
+import { bot_token } from "./config.js";
 // import { getAccounts } from "./sf_handler/account";
-import { getTelegramContact, createTelegramContact } from "./sf_handler/Telegram_Contact__c";
-import { getAccounts } from "./sf_handler/account";
+import { getTelegramContact, createTelegramContact } from "./sf_handler/Telegram_Contact__c.js";
+import { getAccounts } from "./sf_handler/account.js";
 
 if (!bot_token) {
   throw new Error("BOT_TOKEN is not set");

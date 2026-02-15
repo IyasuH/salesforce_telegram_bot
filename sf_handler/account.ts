@@ -1,4 +1,4 @@
-import { conn } from "../index";
+import { conn } from "../connection.js";
 
 export async function getAccounts(): Promise<void> {
   try {

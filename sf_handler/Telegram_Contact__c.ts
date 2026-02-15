@@ -1,4 +1,4 @@
-import { conn } from "../index"; 
+import { conn } from "../connection.js";
 import { TelegramContact } from "../interface";
 
 export async function getTelegramContact(userid: string) {
